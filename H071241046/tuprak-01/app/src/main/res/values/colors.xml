@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ig_black">#121212</color>
+    <color name="ig_pure_black">#000000</color>
+
+    <color name="ig_gray_button">#262626</color>
+    <color name="ig_gray_text">#BDBDBD</color>
+    <color name="ig_gray_input_line">#555555</color>
+
+    <color name="ig_blue">#3897F0</color>
+    <color name="ig_white">#FFFFFF</color>
+</resources>
