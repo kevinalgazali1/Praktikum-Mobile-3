@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.TugasIG" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/ig_black</item>
+        <item name="colorPrimaryDark">@color/ig_pure_black</item>
+        <item name="colorAccent">@color/ig_blue</item>
+        <item name="android:windowBackground">@color/ig_black</item>
+    </style>
+
+    <style name="Theme.TugasIG" parent="Base.Theme.TugasIG" />
+</resources>
