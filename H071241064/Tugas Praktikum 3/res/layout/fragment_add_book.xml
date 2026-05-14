@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambah Buku"
+            android:fontFamily="@font/playfair_display_bold"
+            android:textSize="30sp"
+            android:textColor="@color/text_primary"
+            android:letterSpacing="-0.02"
+            android:layout_marginTop="52dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambahkan koleksi baru ke perpustakaan"
+            android:fontFamily="@font/dm_sans"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cover Buku"
+            android:fontFamily="@font/dm_sans"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary"
+            android:letterSpacing="0.08"
+            android:textAllCaps="true"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:id="@+id/iv_cover_preview"
+                android:layout_width="80dp"
+                android:layout_height="112dp"
+                android:src="@drawable/cover_placeholder"
+                android:scaleType="centerCrop"
+                android:background="@drawable/cover_placeholder" />
+
+            <Button
+                android:id="@+id/btn_pick_image"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Pilih dari Galeri"
+                android:fontFamily="@font/dm_sans"
+                android:textSize="13sp"
+                android:textColor="@color/accent"
+                android:background="@drawable/bg_btn_outline"
+                android:layout_marginStart="16dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp" />
+
+        </LinearLayout>
+
+        <TextView style="@style/LabelStyle" android:text="Judul *" />
+        <EditText
+            android:id="@+id/et_title"
+            style="@style/InputStyle"
+            android:hint="Judul buku" />
+
+        <TextView style="@style/LabelStyle" android:text="Penulis *" />
+        <EditText
+            android:id="@+id/et_author"
+            style="@style/InputStyle"
+            android:hint="Nama penulis" />
+
+        <TextView style="@style/LabelStyle" android:text="Tahun Terbit *" />
+        <EditText
+            android:id="@+id/et_year"
+            style="@style/InputStyle"
+            android:hint="Contoh: 2023"
+            android:inputType="number" />
+
+        <TextView style="@style/LabelStyle" android:text="Genre" />
+        <EditText
+            android:id="@+id/et_genre"
+            style="@style/InputStyle"
+            android:hint="Contoh: Teen Romance" />
+
+        <TextView style="@style/LabelStyle" android:text="Jumlah Halaman" />
+        <EditText
+            android:id="@+id/et_pages"
+            style="@style/InputStyle"
+            android:hint="Contoh: 300"
+            android:inputType="number" />
+
+        <TextView style="@style/LabelStyle" android:text="Sinopsis *" />
+        <EditText
+            android:id="@+id/et_blurb"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Tulis sinopsis singkat..."
+            android:fontFamily="@font/dm_sans"
+            android:textSize="14sp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:background="@drawable/bg_input"
+            android:padding="14dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp" />
+
+        <TextView style="@style/LabelStyle" android:text="Review / Ulasan" />
+        <EditText
+            android:id="@+id/et_review"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Tuliskan ulasanmu..."
+            android:fontFamily="@font/dm_sans"
+            android:textSize="14sp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_hint"
+            android:background="@drawable/bg_input"
+            android:padding="14dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="28dp" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Simpan Buku"
+            android:fontFamily="@font/dm_sans"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_btn_primary"
+            android:insetTop="0dp"
+            android:insetBottom="0dp" />
+
+    </LinearLayout>
+</ScrollView>

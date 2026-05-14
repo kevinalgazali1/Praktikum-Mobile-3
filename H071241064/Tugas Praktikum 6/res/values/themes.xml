@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.StudentPortal.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/accent_purple</item>
+        <item name="colorPrimaryVariant">@color/accent_purple_dark</item>
+        <item name="colorAccent">@color/accent_purple</item>
+        <item name="android:windowBackground">@color/light_background</item>
+
+        <item name="colorBackground">@color/light_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorPrimaryText">@color/light_primary_text</item>
+        <item name="colorSecondaryText">@color/light_secondary_text</item>
+        <item name="colorDivider">@color/light_divider</item>
+        <item name="colorSwitchTrack">#D0CBFF</item>
+
+        <item name="android:statusBarColor">@color/light_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.StudentPortal.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/accent_purple</item>
+        <item name="colorPrimaryVariant">@color/accent_purple_dark</item>
+        <item name="colorAccent">@color/accent_purple</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+
+        <item name="colorBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorPrimaryText">@color/dark_primary_text</item>
+        <item name="colorSecondaryText">@color/dark_secondary_text</item>
+        <item name="colorDivider">@color/dark_divider</item>
+        <item name="colorSwitchTrack">#4A4880</item>
+
+        <item name="android:statusBarColor">@color/dark_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.StudentPortal" parent="Theme.StudentPortal.Light"/>
+
+</resources>
