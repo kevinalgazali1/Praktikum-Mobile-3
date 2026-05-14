@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Dark Mode Theme -->
+    <style name="Base.Theme.Tugas_Praktikum_02"
+        parent="Theme.Material3.Dark.NoActionBar">
+
+    </style>
+
+</resources>

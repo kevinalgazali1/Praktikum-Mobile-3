@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_matalahmu.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\matalahmu.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_atomichabits.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\atomichabits.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_davincicode.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\davincicode.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\layout_item_book.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\layout\\item_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_pys.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\pys.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_sapiens.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\sapiens.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_hailmarry.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\hailmarry.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\layout_fragment_favorites.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\layout\\fragment_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\layout_fragment_add_book.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\layout\\fragment_add_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_genre_tag_bg.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\genre_tag_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_spinner_bg.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\spinner_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_thealchemist.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\thealchemist.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_tokilla.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\tokilla.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_lordoftheflies.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\lordoftheflies.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_ic_favorite_border.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\ic_favorite_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_harrypotter.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\harrypotter.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_dune.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\dune.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_cover_placeholder.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\cover_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_bravenewworld.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\bravenewworld.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.libraryapp-merged_res-4:/layout_fragment_home.xml.flat",
+        "source": "com.example.libraryapp-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_thegreatgatsby.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\thegreatgatsby.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_tity.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\tity.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_thehobbit.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\thehobbit.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_prideandprejudice.jpg.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\prideandprejudice.jpg"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_ic_favorite_filled.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\ic_favorite_filled.xml"
+    },
+    {
+        "merged": "com.example.libraryapp-merged_res-4:/drawable_search.xml.flat",
+        "source": "com.example.libraryapp-main-6:/drawable/search.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-merged_res-4:\\drawable_themidnightlibrary.png.flat",
+        "source": "C:\\Users\\LENOVO\\OneDrive\\Documents\\LibraryApp\\daemon\\8.7\\com.example.libraryapp-main-6:\\drawable\\themidnightlibrary.png"
+    },
+    {
+        "merged": "com.example.libraryapp-merged_res-4:/layout_fragment_favorites.xml.flat",
+        "source": "com.example.libraryapp-main-6:/layout/fragment_favorites.xml"
+    }
+]
