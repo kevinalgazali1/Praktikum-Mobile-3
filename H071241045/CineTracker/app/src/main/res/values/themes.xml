@@ -1,0 +1,25 @@
+<!-- res/values/themes.xml (Light Theme - Cream & Coklat) -->
+<resources>
+    <style name="Theme.CineTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#C8960C</item>
+        <item name="colorPrimaryVariant">#A07808</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <item name="android:colorBackground">#FDF6EC</item>
+        <item name="colorOnBackground">#2C1A0E</item>
+
+        <item name="colorSurface">#FFF8F0</item>
+        <item name="colorOnSurface">#2C1A0E</item>
+
+        <item name="colorSecondary">#1B2A5E</item>
+        <item name="colorSecondaryVariant">#0F1A3A</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <item name="android:statusBarColor">#C8960C</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.CineTracker.Splash" parent="Theme.CineTracker">
+        <item name="android:windowBackground">@color/ct_bg</item>
+    </style>
+</resources>

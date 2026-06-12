@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ct_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Hero poster -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+
+            <ImageView
+                android:id="@+id/iv_detail_poster"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:background="@color/ct_surface2"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/gradient_detail_fade"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:contentDescription="Back"
+                android:src="@android:drawable/ic_media_previous"
+                app:backgroundTint="#AA000000"
+                app:tint="#FFFFFF"
+                app:fabSize="mini"
+                app:elevation="6dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:id="@+id/tv_detail_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Movie Title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:lineSpacingMultiplier="1.1"
+                    android:shadowColor="#000000"
+                    android:shadowDx="0"
+                    android:shadowDy="2"
+                    android:shadowRadius="10"/>
+
+                <!-- Rating + Tahun + TMDB -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/bg_badge_amber"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="5dp"
+                        android:layout_marginEnd="8dp">
+
+                        <TextView
+                            android:text="★ "
+                            android:textColor="@color/ct_bg"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/tv_detail_rating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="8.5"
+                            android:textColor="@color/ct_bg"
+                            android:textSize="13sp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <!-- Tahun rilis -->
+                    <TextView
+                        android:id="@+id/tv_detail_year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2024"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:background="#66000000"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="4dp"
+                        android:layout_marginEnd="8dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TMDB"
+                        android:textColor="@color/ct_accent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        android:background="@drawable/bg_tmdb_badge"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="4dp"
+                        android:letterSpacing="0.1"/>
+                </LinearLayout>
+
+                <!-- Genre tags -->
+                <LinearLayout
+                    android:id="@+id/ll_genre_tags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- Content -->
+        <LinearLayout
+            android:id="@+id/content_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/ct_bg"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="36dp">
+
+            <!-- Storyline -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp">
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="18dp"
+                    android:background="@color/ct_accent"
+                    android:layout_marginEnd="10dp"/>
+
+                <TextView
+                    android:text="Storyline"
+                    android:textColor="@color/ct_text"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_detail_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Overview..."
+                android:textColor="@color/ct_text_dim"
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.7"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Watchlist Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_add_watchlist"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="＋  Add to Watchlist"
+                android:textColor="@color/ct_bg"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.04"
+                app:backgroundTint="@color/ct_accent"
+                app:cornerRadius="27dp"
+                app:elevation="4dp"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Share Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_share"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="🔗  Bagikan Film"
+                android:textColor="@color/ct_accent"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.04"
+                app:backgroundTint="@color/ct_surface2"
+                app:cornerRadius="27dp"
+                app:elevation="0dp"
+                app:strokeColor="@color/ct_accent"
+                app:strokeWidth="1dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

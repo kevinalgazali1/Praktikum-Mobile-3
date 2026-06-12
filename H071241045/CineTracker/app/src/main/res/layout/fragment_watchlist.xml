@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ct_bg">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ct_bg"
+        app:elevation="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="24dp"
+            android:paddingBottom="14dp">
+
+            <!-- Header Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:text="MY LIST"
+                        android:textSize="10sp"
+                        android:textColor="@color/ct_accent"
+                        android:textStyle="bold"
+                        android:letterSpacing="0.5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"/>
+
+                    <TextView
+                        android:text="Watchlist"
+                        android:textSize="28sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/ct_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Counter badge -->
+                <TextView
+                    android:id="@+id/tv_watchlist_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 films"
+                    android:textColor="@color/ct_bg"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/bg_badge_amber"
+                    android:paddingHorizontal="14dp"
+                    android:paddingVertical="6dp"/>
+            </LinearLayout>
+
+            <!-- Search Bar -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/bg_search_bar"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔍"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="10dp"/>
+
+                <EditText
+                    android:id="@+id/et_search_watchlist"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Search watchlist..."
+                    android:textSize="14sp"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:textColorHint="@color/ct_text_dim"
+                    android:textColor="@color/ct_text"/>
+            </LinearLayout>
+
+            <!-- Sort Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:text="Sort"
+                    android:textSize="11sp"
+                    android:textColor="@color/ct_text_dim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"/>
+
+                <TextView
+                    android:id="@+id/chip_sort_rating_wl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:text="★ Top Rated"
+                    android:textSize="11sp"
+                    android:textColor="@color/ct_text_dim"
+                    android:gravity="center"
+                    android:paddingHorizontal="12dp"
+                    android:background="@drawable/bg_chip_inactive"
+                    android:layout_marginEnd="8dp"/>
+
+                <TextView
+                    android:id="@+id/chip_sort_az_wl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:text="A – Z"
+                    android:textSize="11sp"
+                    android:textColor="@color/ct_text_dim"
+                    android:gravity="center"
+                    android:paddingHorizontal="12dp"
+                    android:background="@drawable/bg_chip_inactive"
+                    android:layout_marginEnd="8dp"/>
+
+                <TextView
+                    android:id="@+id/chip_reset_wl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:text="Reset"
+                    android:textSize="11sp"
+                    android:textColor="@color/ct_text_dim"
+                    android:gravity="center"
+                    android:paddingHorizontal="12dp"
+                    android:background="@drawable/bg_chip_dim"/>
+            </LinearLayout>
+
+            <!-- Hint swipe -->
+            <TextView
+                android:id="@+id/tv_swipe_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="← Geser kiri untuk hapus"
+                android:textSize="11sp"
+                android:textColor="@color/ct_text_dim"
+                android:layout_marginTop="8dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_watchlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="80dp"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    <LinearLayout
+        android:id="@+id/tv_empty_watchlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_gravity="center">
+
+        <TextView
+            android:text="🎬"
+            android:textSize="56sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:text="Your watchlist is empty"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/ct_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:text="Tap ＋ on any movie to save it here"
+            android:textSize="13sp"
+            android:textColor="@color/ct_text_dim"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
