@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Light Theme -->
+    <color name="ct_bg">#F4F6FB</color>
+    <color name="ct_surface">#FFFFFF</color>
+    <color name="ct_surface2">#E2E6EF</color>
+    <color name="ct_accent">#E5900A</color>
+    <color name="ct_accent_dark">#B8720A</color>
+    <color name="ct_purple">#5A52D5</color>
+    <color name="ct_text">#141414</color>
+    <color name="ct_text_dim">#757575</color>
+    <color name="ct_red">#E50914</color>
+</resources>

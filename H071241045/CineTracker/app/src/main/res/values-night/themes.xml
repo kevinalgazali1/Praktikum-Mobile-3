@@ -1,0 +1,25 @@
+<!-- res/values-night/themes.xml (Dark Theme - Navy & Kuning Emas) -->
+<resources>
+    <style name="Theme.CineTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#D4A017</item>
+        <item name="colorPrimaryVariant">#A87C10</item>
+        <item name="colorOnPrimary">#0D1B2A</item>
+
+        <item name="android:colorBackground">#0D1B2A</item>
+        <item name="colorOnBackground">#F5ECD7</item>
+
+        <item name="colorSurface">#162337</item>
+        <item name="colorOnSurface">#F5ECD7</item>
+
+        <item name="colorSecondary">#D4A017</item>
+        <item name="colorSecondaryVariant">#A87C10</item>
+        <item name="colorOnSecondary">#0D1B2A</item>
+
+        <item name="android:statusBarColor">#0D1B2A</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.CineTracker.Splash" parent="Theme.CineTracker">
+        <item name="android:windowBackground">@color/ct_bg</item>
+    </style>
+</resources>
