@@ -69,16 +69,11 @@ Dua tema (dark/light) diimplementasikan menggunakan `AppCompatDelegate` dengan `
 ### Langkah
 1. Clone repository ini
    ```bash
-   git clone https://github.com/kevinalgazali1/Praktikum-Mobile-3.git
+   git clone https://github.com/Shabrinazahrahramadhani/Praktikum-Mobile-3.git
    ```
 2. Buka project di Android Studio
 3. Tunggu Gradle sync selesai
 4. Jalankan di emulator atau perangkat fisik
-
----
-
-## 📦 Download APK
-
 
 ---
 
